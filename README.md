@@ -5,7 +5,7 @@ simple management command for factory boy
 
 
 1. Install with pip
-2. Place `factory.py` recipies in your apps::
+2. Place `foundry.py` recipies in your apps::
 
     myapp/
       static/
@@ -14,8 +14,12 @@ simple management command for factory boy
       models.py
       urls.py
       views.py
-      factories.py
+      foundry.py
 
 3. Run with management command, specifying models described in your recipies: 
 
-    ./manage boy someotherapp.HilariousModelName:9000 yetanotherapp.OmgTheseModelNamesLawl:1
+    ./manage forge someotherapp.HilariousModelName:9000 yetanotherapp.OmgTheseModelNamesLawl:1
+
+
+
+4. Customise the factory boy "recipe" module name with `FACTORYBOY_RECIPE_MODULENAME` in your settings module.
