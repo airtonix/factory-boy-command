@@ -19,7 +19,7 @@ simple management command for [factory boy](https://github.com/rbarrois/factory_
 
 3. Run with management command, specifying models described in your recipies: 
 
-    `./manage forge someotherapp.HilariousModelName:9000 yetanotherapp.OmgTheseModelNamesLawl:1`
+    `./manage forge myapp.HilariousModelName:9000 appyoucantseeyet.OmgTheseModelNamesLawl:1`
 
 
 
