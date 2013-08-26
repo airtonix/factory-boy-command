@@ -1,7 +1,7 @@
 factory-boy-command
 ===================
 
-simple management command for factory boy
+simple management command for [factory boy](https://github.com/rbarrois/factory_boy)
 
 
 1. Install with pip
