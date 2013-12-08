@@ -14,7 +14,7 @@ FACTORYBOY_RECIPE_MODULENAME = getattr(settings, "FACTORYBOY_RECIPE_MODULENAME",
 
 class Command(BaseCommand):
     args = '<modelpath modelpath:count ...>'
-    help = 'Generate model instances using model-mommy'
+    help = 'Generate model instances using factoryboy'
     foundries = {}
 
     def get_subklasses(self, module, klass):
