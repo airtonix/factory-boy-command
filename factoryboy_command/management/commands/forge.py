@@ -43,7 +43,7 @@ class Command(BaseCommand):
                 print path
                 foundry = import_module(path)
                 for thing in self.get_subklasses(foundry, factory.Factory):
-                    self.foundries[thing.FACTORY_FOR.__name__] = thing
+                    self.foundries[thing._meta.model.__name__] = thing
 
             except Exception as error:
                 _registry = before_import_registry
