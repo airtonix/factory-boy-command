@@ -4,11 +4,11 @@ import os
 
 setup(
     name='django-factory-boy-command',
-    version='0.0.1',
+    version='0.0.2',
     packages=find_packages(),
     install_requires=[
-        'factory-boy>=2.1.2',
-        'Django>=1.4'
+        'factory-boy>=2.5.1',
+        'Django>=1.7'
     ],
     author='Zenobius Jiricek',
     author_email='airtonix@gmail.com',
